@@ -11,7 +11,7 @@ void main() {
 
   var grade;
   int marks;
-  String? name;
+  String? name = null;
   stdout.write("Enter your name: ");
   name = name?.trim() ?? "Name not provided";
   name = stdin.readLineSync()!;

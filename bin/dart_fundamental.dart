@@ -18,12 +18,13 @@ mroshed is a software engineer with expertise in Dart programming. He has a pass
     "Name: $name, Age: $age, Height: $height, Is Student: $isStudent his description is $descripttion $path",
   );
   var temperature = 20;
+
   if (temperature > 25) {
     print("It's a hot day");
   } else {
     print("It's a pleasant day");
   }
-  var day = "Friday";
+  var day = "thursday";
   switch (day) {
     case "Monday":
       print("Its a monday");
