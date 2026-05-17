@@ -24,6 +24,7 @@ mroshed is a software engineer with expertise in Dart programming. He has a pass
   } else {
     print("It's a pleasant day");
   }
+
   var day = "thursday";
   switch (day) {
     case "Monday":

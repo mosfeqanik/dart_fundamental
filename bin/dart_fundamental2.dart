@@ -33,9 +33,9 @@ void main() {
   };
 
   student["present addrees"] = "Narsingdi";
-  student.forEach((key, value) {
-    print("$key is $value");
-  });
+  // student.forEach((key, value) {
+  //   print("$key is $value");
+  // });
   // print(student['name']);
   // print(student['contact'] ?? "warning");
   // student.remove("department");
@@ -43,11 +43,16 @@ void main() {
   // print(student.containsKey("department"));
   Set<String> language = {"dart", "python", "C#", "C", "C++"};
   language.add("flutter");
-  print(language.contains("java") ? "java is found" : "not found");
-  print(language);
+  // print(language.contains("java") ? "java is found" : "not found");
+  // print(language);
 
   var a = [1, 2, 3, 4];
   var b = [5, 6, 7, 8];
-  var merged = [...a, ...b];
+  var c = [9, 10];
+  var merged = [...a, ...b, ...c];
   print(merged);
+
+  add() {
+    print(5 + 6);
+  }
 }
